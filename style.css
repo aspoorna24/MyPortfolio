@@ -1,0 +1,84 @@
+ul li{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    
+   
+}
+ul li:hover{
+    text-decoration: underline;
+    background-color: black;
+   
+}
+
+.navbar-default{
+  transition:500ms ease;
+  background:transparent;
+  
+}
+.navbar-default.scrolled{
+  background:#000;
+  opacity: 0.7;
+}
+
+.cent{
+    font-family: 'Alex Brush';
+    position: absolute;
+    top:70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-size: large;
+    padding: 10%;
+  }
+
+@media only screen and (max-width: 1100px) {
+   .cent{
+       visibility: hidden;
+   }
+  }
+
+  @media only screen and (min-width: 1100px) {
+    .i{
+        width: 100%;
+        height: 1000px;
+    }
+   }
+ 
+#note{
+  background: white;
+  color: black; 
+  padding-top: 25px;
+  padding-bottom: 20px;
+  border:2px solid black;
+  border-radius: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  box-shadow:0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19) ;
+  
+  
+}
+#note h3{
+  text-align: center;
+  
+}
+
+  
+#not{
+  background: white;
+  color: black; 
+  padding-top: 25px;
+  padding-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  box-shadow:0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19) ;
+  
+  
+}
+#not a{
+  color: #17a2b8;
+}
+#not a:hover{
+  color: white;
+}
+ 
